@@ -1,0 +1,51 @@
+/* .demo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  } */
+
+.demo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Use the full height of the viewport */
+  background-size: cover; /* Cover the entire section with the SVG */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.demo-container button {
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.demo-container button:disabled {
+  background-color: #ccc;
+  cursor: default;
+}
+
+.demo-container input[type="file"] {
+  margin: 10px;
+}
+
+.download-bttn:hover {
+  cursor: pointer;
+  /* transform: scale(1.5); */
+}
+
+.select-bttn:hover {
+  cursor: pointer;
+}
+
+.download-clear-data-bttn:hover {
+  cursor: pointer;
+}

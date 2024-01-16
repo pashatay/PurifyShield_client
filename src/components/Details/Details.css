@@ -1,0 +1,11 @@
+.details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use the full height of the viewport */
+    background-size: cover; /* Cover the entire section with the SVG */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
