@@ -6,7 +6,7 @@ import {
   handleDownloadCleanedFile,
 } from "./DemoServiceFunctions";
 
-function Demo2() {
+function Demo() {
   const hiddenFileInput = useRef(null);
 
   const handleClick = () => {
@@ -525,4 +525,4 @@ function Demo2() {
   );
 }
 
-export default Demo2;
+export default Demo;

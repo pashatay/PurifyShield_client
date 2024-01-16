@@ -1,8 +1,7 @@
 import React from "react";
 import Introduction from "./components/Introduction/Introduction";
 import Details from "./components/Details/Details";
-import Demo from "./components/Demo/DemoServiceFunctions";
-import Demo2 from "./components/Demo/Demo2";
+import Demo from "./components/Demo/Demo";
 import Feedback from "./components/Feedback/Feedback";
 import "./App.css"; // assuming you have general styles here
 
@@ -11,7 +10,7 @@ function App() {
     <div className="app">
       <Introduction />
       <Details />
-      <Demo2 />
+      <Demo />
       <Feedback />
     </div>
   );
