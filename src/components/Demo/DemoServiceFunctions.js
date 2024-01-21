@@ -1,5 +1,5 @@
 // Import environment variables (you need to have these set in your .env file)
-const API_URL = process.env.PURIFYSHIELD_SERVES; // Example: REACT_APP_API_URL=http://127.0.0.1:5000
+const API_URL = process.env.REACT_APP_PURIFYSHIELD_SERVES; // Example: REACT_APP_API_URL=http://127.0.0.1:5000
 
 const handleDownloadTestFile = () => {
   const link = document.createElement("a");

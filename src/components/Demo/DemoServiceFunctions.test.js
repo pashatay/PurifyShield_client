@@ -1,7 +1,7 @@
 import { handleDownloadCleanedFile } from "./DemoServiceFunctions";
 
 // Setup the environment variable for the tests
-process.env.PURIFYSHIELD_SERVES = "http://127.0.0.1:5000";
+process.env.REACT_APP_PURIFYSHIELD_SERVES = "http://127.0.0.1:5000";
 
 // Mock global properties and functions
 global.URL.createObjectURL = jest.fn();
